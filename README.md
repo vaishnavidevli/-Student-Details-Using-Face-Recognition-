@@ -12,3 +12,8 @@ It is a python based face recognition application for a particular organization 
    For admin login - username = Admin , password = pass123
 
 ## Snapshots
+
+![Screenshot (2509)](https://github.com/user-attachments/assets/b1fdc556-6bdc-4e4f-bd19-53d7c3dd22e9)
+![Screenshot (2517)](https://github.com/user-attachments/assets/20fc19bd-290f-4bbf-9ead-daf45d6c628b)
+![Screenshot (2518)](https://github.com/user-attachments/assets/2b741419-8a02-4b98-9ef8-03647bb0e4e2)
+![Screenshot (2516)](https://github.com/user-attachments/assets/44076064-c49f-469a-9bf4-44fe31f96597)
