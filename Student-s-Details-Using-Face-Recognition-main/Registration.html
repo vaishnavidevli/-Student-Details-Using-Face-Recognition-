@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="Registrationstyle.css">
+</head>
+<body>
+    <div class="container">
+        <form action="connect.php" method="post" enctype="multipart/form-data">
+            <h1>Register</h1>
+            <input type="text" name="uniqueid" placeholder="Unique Id" required>
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="number" placeholder="Phone Number" required>
+            <input type="text" name="uname" placeholder="University Name" required>
+            <input type="text" name="degree" placeholder="Degree" required>
+            <input type="text" name="semester" placeholder="Semester" required>
+            <input type="text" name="cgpa" placeholder="Overall CGPA" required>
+            <input type="text" name="address" placeholder="Address" required>
+            <input type="url" name="resume" placeholder="Resume Link" required>
+            <input type="url" name="linkedin" placeholder="LinkedIn Profile" required>
+            <input type="url" name="github" placeholder="GitHub Link" required>
+            <input type="file" name="marksheet10" required>
+            <input type="file" name="marksheet12" required>
+            <input type="url" name="certificate" placeholder="Certificate Link" required>
+            <label for="fileToUpload">Select image to upload:</label>
+            <em>Name your image in this format "Uniqueid Name"</em>
+            <em>Example - "2016950 RIDDHI SHIVHARE.jpeg"</em>
+            <input type="file" name="fileToUpload" id="fileToUpload" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
