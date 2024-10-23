@@ -31,7 +31,7 @@ for name in classnames:
 
 
 def markAttendance(name):  # Function to mark attendance in database
-    conn = mysql.connector.connect(host="localhost", user='root', passwd='alapk26021973@', database="mysql")  # connecting to MySql
+    conn = mysql.connector.connect(host="localhost", user='root', passwd='', database="mysql")  # connecting to MySql
     cursor = conn.cursor()
     nowd = datetime.datetime.now()  # recording the current time
     dtStringY = nowd.strftime("%D %H:%M:%S")
@@ -44,7 +44,7 @@ def markAttendance(name):  # Function to mark attendance in database
 
 
 def getDetails(name):  # Function to fetch the details from database
-    mydb = mysql.connector.connect(host="localhost", user="root", passwd="alapk26021973@", database="studentdb")  # connecting to database
+    mydb = mysql.connector.connect(host="localhost", user="root", passwd="", database="studentdb")  # connecting to database
     mycursor = mydb.cursor()
     mycursor.execute("Select * from studentdetails")
     myresult = mycursor.fetchall()  # fetching all rows of the table
